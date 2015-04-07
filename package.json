@@ -19,10 +19,9 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "nested", "prop", "get", "set"
   ],
   "dependencies": {
-    "dot-prop": "^1.0.1",
     "is-primitive": "^2.0.0"
   },
   "devDependencies": {
