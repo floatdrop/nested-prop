@@ -17,10 +17,10 @@ var nestedProp = require('nested-prop');
 
 var obj = {a: ''};
 
-nestedProp.set(obj, ['a', 'b', 'c'], 1);
+nestedProp.set(obj, 'a.b.c', 1);
 //=> {a: {b: {c: 1}}}
 
-nestedProp.get(obj, ['a', 'b', 'c']);
+nestedProp.get(obj, 'a.b.c');
 //=> 1
 ```
 
