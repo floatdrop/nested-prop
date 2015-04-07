@@ -1,6 +1,6 @@
 {
   "name": "nested-prop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My peachy module",
   "license": "MIT",
   "repository": "floatdrop/nested-prop",
@@ -19,7 +19,10 @@
     "index.js"
   ],
   "keywords": [
-    "nested", "prop", "get", "set"
+    "nested",
+    "prop",
+    "get",
+    "set"
   ],
   "dependencies": {
     "is-primitive": "^2.0.0"
